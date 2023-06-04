@@ -1,0 +1,14 @@
+
+<!-- saved from url=(0033)https://sweb.ru/site-constructor/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><script type="text/javascript" async="" src="./recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-Zkv9F02+yghSXAFFLPZt/TKDOCrO9vWe4j0Nx8+F2CXcAqAqpPE66Q9PuIf0y2a3"></script><script src="./api.js(1).download"></script><script src="./jquery.min.js.download"></script>
+<script>
+            console.log('new captcha');
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6Lcj6K0UAAAAAIQ_d0d_bNURmVq1bNvcIHgGXpHa', {action: 'login'}).then(function (token) {
+                    $.get('/hosting/siteVerify_ajax/?token=' + token, function (data) {
+                        //здесь можно принять решение показывать капчу v2 или нет
+                        console.log(data);
+                    });
+                })
+            });
+</script><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./anchor(1).html" width="256" height="60" role="presentation" name="a-gla19fgvoo78" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./saved_resource(6).html"></iframe></div></body></html>

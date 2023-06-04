@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_telegram@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.9479137,1.99849612 L15.2318423,14.4516211 C15.0269316,15.3305274 14.4925566,15.5492774 13.7331816,15.1352149 L9.59478875,12.1703711 L7.59791375,14.0375586 C7.3769316,14.2524024 7.19211018,14.4320899 6.76621732,14.4320899 L7.06353875,10.3344336 L14.733628,3.59615237 C15.0671102,3.30708987 14.6613066,3.14693362 14.2153245,3.43599612 L4.7331816,9.24068362 L0.651038746,7.99849612 C-0.236907682,7.72896487 -0.252979111,7.13521487 0.835860175,6.72115237 L16.8028245,0.740683623 C17.5421102,0.471152373 18.1889852,0.900839873 17.9479137,1.99849612 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-228.000000, -219.000000)">
+            <g id="icon_telegram" transform="translate(228.000000, 218.000000)">
+                <g id="icon_google+-copy" fill="#36BDF7">
+                    <path d="M30.5464,15.9985 C30.5464,24.2815 23.8304,30.9985 15.5464,30.9985 C7.2624,30.9985 0.5464,24.2815 0.5464,15.9985 C0.5464,7.7155 7.2624,0.9985 15.5464,0.9985 C23.8304,0.9985 30.5464,7.7155 30.5464,15.9985" id="Fill-83"></path>
+                </g>
+                <g id="Icons/Brands/telegram-plane" transform="translate(6.000000, 8.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="telegram-plane" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
